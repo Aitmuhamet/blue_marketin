@@ -1,0 +1,65 @@
+/* roboto */
+@font-face {
+  font-family: 'roboto';
+  src: url(../fonts/roboto/Roboto-Regular.ttf) format('truetype');
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'roboto';
+  src: url(../fonts/roboto/Roboto-Medium.ttf) format('truetype');
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'roboto';
+  src: url(../fonts/roboto/Roboto-Bold.ttf) format('truetype');
+  font-weight: 900;
+}
+/* hind */
+@font-face {
+  font-family: 'hind';
+  src: url(../fonts/hind/HindMadurai-Medium.ttf) format('truetype');
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'hind';
+  src: url(../fonts/hind/HindMadurai-SemiBold.ttf) format('truetype');
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'hind';
+  src: url(../fonts/hind/HindMadurai-Bold.ttf) format('truetype');
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'hind';
+  src: url(../fonts/hind/HindMadurai-Regular.ttf) format('truetype');
+  font-weight: 400;
+}
+/* fredoka */
+@font-face {
+  font-family: 'fredoka';
+  src: url(../fonts/fredoka/FredokaOne-Regular.ttf) format('truetype');
+  font-weight: 400;
+}
+
+/* icons */
+@font-face {
+  font-family: 'icons';
+  src: url(../fonts/icons/fa-brands-400.ttf) format('truetype');
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'icons';
+  src: url(../fonts/icons/fa-regular-400.ttf) format('truetype');
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'icons';
+  src: url(../fonts/icons/fa-duotone-900.ttf) format('truetype');
+  font-weight: 900;
+}
+@font-face {
+  font-family: 'icons';
+  src: url(../fonts/icons/fa-solid-900.ttf) format('truetype');
+  font-weight: 900;
+}
