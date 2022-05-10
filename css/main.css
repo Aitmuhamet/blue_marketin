@@ -80,7 +80,7 @@
     transition: background 0.7s;
 }
 .navbar-top-fixed{
-    position: fixed;
+    position: relative;
     top: 0;
     left: 0;
     display: block;
@@ -507,7 +507,7 @@
 .tab-content__user-others{
     display: flex;
     justify-content: space-around;
-    min-width: 256px;
+    width: 256px;
     padding: 0 14px;
     align-items: center;
     position: relative;
@@ -578,6 +578,60 @@
     min-width: 374px;
 }
 
+/* siple */
+.simple{
+    background: #F8EDF0;
+    font-family: 'roboto';
+    font-style: normal;
+    padding: 6px 0 6px;
+}
+.simple__img{
+    position: relative;
+    bottom: -47px;
+}
+.simple__text{
+    margin: 90px 0 0 134px;
+}
+.simple__text h2{
+    font-family: 'roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44.2px;
+    line-height: 52px;
+    color: #000;
+    margin-bottom: 20px;
+}
+.simple__text p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.01em;
+    color: #0F0101;
+    opacity: 0.7;
+}
+.simple__text ul{
+    margin-bottom: 31px;
+}
+.simple__text li{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    color: #000;
+    margin-bottom: 19px;
+    display: flex;
+    align-items: center;
+}
+.simple__text li span{
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+
 @media (max-width: 1200px) {
     .header__content--img{
         opacity: 0.6;
@@ -634,6 +688,9 @@
     }
     .tab-content__item-comments{
         flex-direction: column;
+    }
+    .simple__content{
+        padding: 0 70px;
     }
 }
 @media (max-width: 992px) {
@@ -728,6 +785,28 @@
         max-width: 992px;
         width: 50%!important;
     }
+    .simple__content{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .simple__text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: 90px 0 30px 0;
+    }
+    .simple__markets{
+        display: flex;
+        align-items: center;
+        column-gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .simple__img{
+        margin-bottom: 30px;
+        bottom: 0;
+    }
 }
 @media (max-width: 768px) {
     .polar-btn{
@@ -816,6 +895,13 @@
     }
     .tab-content__item:nth-child(4){
         min-height: 350px;
+    }
+    .simple__content{
+        padding: 0 20px;
+    }
+    .simple__text h2{
+        font-size: 35px;
+        line-height: 35px;
     }
 }
 @media (max-width: 480px) {
