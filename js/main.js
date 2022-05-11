@@ -6,9 +6,9 @@ window.addEventListener('scroll', function(){
   // var dY = scrolled - oldScrollY;
   
   if ( scrolled > 0 ){
-    div.classList.add('navbar-top-fixed');
+  div.classList.add('navbar-top-fixed');
   } else {
-    div.classList.remove('navbar-top-fixed');
+  div.classList.remove('navbar-top-fixed');
   }
   
   // oldScrollY = scrolled;
