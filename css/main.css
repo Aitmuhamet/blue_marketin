@@ -68,21 +68,25 @@ input[type="text"] {
 }
 /* navbar */
 .navbar{
-  width: 100%;
-  position: fixed;
+  position: absolute;
   top: 0px;
-  padding: 0;
+  width: 100%;
   z-index: 10;
+  background: transparent;
+  padding: 0;
   transition: background 0.7s;
+  display: block;
+}
+.navbar-to-top {
+  top: -100px;
 }
 .navbar-top-fixed{
-  position: relative;
+  position: sticky;
   top: 0;
   left: 0;
-  display: block;
   width: 100%;
   z-index: 2000;
-  background: rgba(255, 255, 255, 0.57);
+  background: rgba(242, 206, 218, 0.3);
   backdrop-filter: blur(15px);
   transition: background 0.7s;
 }
